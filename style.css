@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(1, 48, 1);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color:rgb(2, 62, 2) ;
+    color: white;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+   height: 260px;
+    padding: 50px;
+    position: relative;
+    top: 180px;
+    box-shadow: 0px 20px 20px rgb(13, 96, 13);
+    border-top: 8px white solid;
+    border-bottom: 8px white solid ;
+}
+#counter{
+    background-color: gray;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+   padding-top: 10px;
+}
+#plus{
+background-color:green ;
+font-size: 25px;
+}
+#minus{
+background-color: red;
+font-size: 25px;
+}
+#reset{
+font-size: 30px;
+}
